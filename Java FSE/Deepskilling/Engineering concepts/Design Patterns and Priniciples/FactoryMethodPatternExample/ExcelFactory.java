@@ -1,0 +1,8 @@
+// ExcelFactory.java
+class ExcelFactory extends DocumentFactory {
+
+    @Override
+    public Document createDocument() {
+        return new ExcelDocument();
+    }
+}
